@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+summary,
+.summary {
+  color: rgb(172, 172, 172);
+}
+
+figcaption {
+  color: whitesmoke !important;
+}
+
+footer {
+  background-image: url("../images/footer-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  height: 200px;
+}
+
+/* unvisited link */
+.hivatkozas:link {
+  color: rgb(112, 144, 231);
+}
+
+/* visited link */
+.hivatkozas:visited {
+  color: rgb(172, 172, 172);
+}
+
+/* mouse over link */
+.hivatkozas:hover {
+  color: purple;
+}
+
+/* selected link */
+.hivatkozas:active {
+  color: brown;
+}
+
+blockquote {
+  font-family: sans-serif;
+}
+
+.nav-link {
+  color: white;
+}
+
+.kipozicional a {
+  position: absolute;
+  left: -9999px;
+}
+
+.kipozicional a:focus {
+  position: static;
+  background: white;
+}
